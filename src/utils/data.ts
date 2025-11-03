@@ -12,6 +12,12 @@ export const projectTypes = [
 
 export const projects: ProjectsType[] = [
 	{
+		name: 'Cards',
+		tech: ['components', 'react'],
+		coverBg: assets?.car,
+		url: 'https://pratitb.github.io/car-type-card/',
+	},
+	{
 		name: 'FAQs',
 		tech: ['components', 'tailwindCSS'],
 		coverBg: assets?.faq,
