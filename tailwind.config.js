@@ -7,7 +7,6 @@ export default {
 				mainBg: '#f3f4f6',
 				brdrShdwDividers: '#E5E7EB',
 				sidebarBg: '#E5E7EB',
-
 				primary: '#2563eb',
 			},
 			fontFamily: {

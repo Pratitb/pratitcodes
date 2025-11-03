@@ -4,6 +4,10 @@
 
 /* ---- Base Layer ---- */
 @layer base {
+    * {
+        transition: all 0.3s;
+    }
+
     html {
         scroll-behavior: smooth;
     }

@@ -1,45 +1,56 @@
 import assets from './assets';
+import type { ProjectsType } from './types';
 
 export const projectTypes = [
-	'react, TS, tailwind, vite',
-	'pure JS',
+	'react',
+	'tailwindCSS',
+	'components',
+	'javaScript',
+	'SCSS',
 	'design to code',
 ];
 
-export const projects = [
+export const projects: ProjectsType[] = [
 	{
 		name: 'FAQs',
-		tech: ['react', 'typescript', 'tailwind', 'vite'],
-		url: assets?.faq,
+		tech: ['components', 'tailwindCSS'],
+		coverBg: assets?.faq,
+		url: 'https://pratitb.github.io/faqs/',
 	},
 	{
 		name: 'fylo',
-		tech: ['react', 'typescript', 'tailwind', 'vite'],
-		url: assets?.fylo,
+		tech: ['tailwindCSS', 'design to code'],
+		coverBg: assets?.fylo,
+		url: 'https://pratitb.github.io/fylo/',
 	},
 	{
 		name: 'customer dashboard',
-		tech: ['react', 'typescript', 'SCSS', 'vite'],
-		url: assets?.custDash,
+		tech: ['react', 'SCSS'],
+		coverBg: assets?.custDash,
+		url: 'https://pratitb.github.io/customer-dashboard/',
 	},
 	{
 		name: 'loan dashboard',
-		tech: ['react', 'vite'],
-		url: assets?.aff,
+		tech: ['react'],
+		coverBg: assets?.aff,
+		url: 'https://pratitb.github.io/affinity-react/',
 	},
 	{
 		name: 'currency converter',
-		tech: ['react', 'vite'],
-		url: assets?.currency,
+		tech: ['react'],
+		coverBg: assets?.currency,
+		url: 'https://currencify.in/',
 	},
 	{
 		name: 'tip calculator',
-		tech: ['pure JS'],
-		url: assets?.tip,
+		tech: ['javaScript'],
+		coverBg: assets?.tip,
+		url: 'https://pratitb.github.io/tip-calculator-app/',
 	},
 	{
 		name: 'age calculator',
-		tech: ['pure JS'],
-		url: assets?.age,
+		tech: ['javaScript'],
+		coverBg: assets?.age,
+		url: 'https://pratitb.github.io/age-calculator/',
 	},
 ];

@@ -1,7 +1,7 @@
 import type { CardType } from "../utils/types"
 import PillTab from "./pillTab"
 
-const Card: React.FC<CardType> = ({ screenshot, name, pills }) => {
+const Card: React.FC<CardType> = ({ screenshot, name, pills, url }) => {
     return (
         <div className="card-shdw rounded-lg p-4 bg-white border border-solid border-brdrShdwDividers overflow-hidden md:max-w-[48%] lg:max-w-[32%]">
             <img src={screenshot} alt="" className="rounded-lg w-full max-w-full" />
@@ -15,7 +15,7 @@ const Card: React.FC<CardType> = ({ screenshot, name, pills }) => {
                     ))}
                 </div>
 
-                <p className="text-[13px] text-primary uppercase underline decoration-emerald-400 decoration-4">live demo in new tab</p>
+                <a href={url} target="_blank" className="text-[13px] text-primary uppercase underline decoration-emerald-400 decoration-2">live demo in new tab</a>
             </div>
         </div>
     );
