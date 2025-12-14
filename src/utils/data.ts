@@ -1,5 +1,15 @@
-import assets from './assets';
-import type { ProjectsType } from './types';
+import {
+	Affinity,
+	Age,
+	Car,
+	Currency,
+	CustDash,
+	Faq,
+	Food,
+	Fylo,
+	Tip,
+} from './assets'
+import type { ProjectsType } from './types'
 
 export const projectTypes = [
 	'react',
@@ -8,55 +18,61 @@ export const projectTypes = [
 	'javaScript',
 	'SCSS',
 	'design to code',
-];
+]
 
 export const projects: ProjectsType[] = [
 	{
+		name: 'food item card',
+		tech: ['tailwindCSS', 'components', 'react'],
+		coverBg: Food,
+		url: 'https://pratitb.github.io/food-item-card/',
+	},
+	{
 		name: 'Cards',
 		tech: ['components', 'react'],
-		coverBg: assets?.car,
+		coverBg: Car,
 		url: 'https://pratitb.github.io/car-type-card/',
 	},
 	{
 		name: 'FAQs',
 		tech: ['components', 'tailwindCSS'],
-		coverBg: assets?.faq,
+		coverBg: Faq,
 		url: 'https://pratitb.github.io/faqs/',
 	},
 	{
 		name: 'fylo',
 		tech: ['tailwindCSS', 'design to code'],
-		coverBg: assets?.fylo,
+		coverBg: Fylo,
 		url: 'https://pratitb.github.io/fylo/',
 	},
 	{
 		name: 'customer dashboard',
 		tech: ['react', 'SCSS'],
-		coverBg: assets?.custDash,
+		coverBg: CustDash,
 		url: 'https://pratitb.github.io/customer-dashboard/',
 	},
 	{
 		name: 'loan dashboard',
 		tech: ['react'],
-		coverBg: assets?.aff,
+		coverBg: Affinity,
 		url: 'https://pratitb.github.io/affinity-react/',
 	},
 	{
 		name: 'currency converter',
 		tech: ['react'],
-		coverBg: assets?.currency,
+		coverBg: Currency,
 		url: 'https://currencify.in/',
 	},
 	{
 		name: 'tip calculator',
 		tech: ['javaScript'],
-		coverBg: assets?.tip,
+		coverBg: Tip,
 		url: 'https://pratitb.github.io/tip-calculator-app/',
 	},
 	{
 		name: 'age calculator',
 		tech: ['javaScript'],
-		coverBg: assets?.age,
+		coverBg: Age,
 		url: 'https://pratitb.github.io/age-calculator/',
 	},
-];
+]
