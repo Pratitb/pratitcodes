@@ -7,5 +7,21 @@ import Tip from '../assets/tip_calc.png'
 import Age from '../assets/age_calc.png'
 import Car from '../assets/car-type-card.png'
 import Food from '../assets/food-item-card.png'
+import Profile from '../assets/profile-card.png'
+import Social from '../assets/socia-media.png'
+import Jobs from '../assets/job-list-filtering.png'
 
-export { Food, Car, Faq, Fylo, CustDash, Affinity, Currency, Tip, Age }
+export {
+	Social,
+	Profile,
+	Food,
+	Car,
+	Faq,
+	Fylo,
+	CustDash,
+	Affinity,
+	Currency,
+	Tip,
+	Age,
+	Jobs,
+}

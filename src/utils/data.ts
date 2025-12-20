@@ -8,11 +8,14 @@ import {
 	Food,
 	Fylo,
 	Tip,
+	Profile,
+	Social,
 } from './assets'
 import type { ProjectsType } from './types'
 
 export const projectTypes = [
 	'react',
+	'typescript',
 	'tailwindCSS',
 	'components',
 	'javaScript',
@@ -22,14 +25,32 @@ export const projectTypes = [
 
 export const projects: ProjectsType[] = [
 	{
+		name: 'job list filtering',
+		tech: ['components', 'react', 'typescript'],
+		coverBg: Social,
+		url: 'https://pratitb.github.io/social-media/',
+	},
+	{
+		name: 'social media dashboard',
+		tech: ['components', 'tailwindCSS'],
+		coverBg: Social,
+		url: 'https://pratitb.github.io/social-media/',
+	},
+	{
+		name: 'profile card',
+		tech: ['components', 'tailwindCSS'],
+		coverBg: Profile,
+		url: 'https://pratitb.github.io/profile-card/',
+	},
+	{
 		name: 'food item card',
-		tech: ['tailwindCSS', 'components', 'react'],
+		tech: ['components', 'tailwindCSS'],
 		coverBg: Food,
 		url: 'https://pratitb.github.io/food-item-card/',
 	},
 	{
-		name: 'Cards',
-		tech: ['components', 'react'],
+		name: 'Automotive Cards',
+		tech: ['components', 'tailwindCSS'],
 		coverBg: Car,
 		url: 'https://pratitb.github.io/car-type-card/',
 	},
@@ -47,7 +68,7 @@ export const projects: ProjectsType[] = [
 	},
 	{
 		name: 'customer dashboard',
-		tech: ['react', 'SCSS'],
+		tech: ['react', 'typescript', 'SCSS'],
 		coverBg: CustDash,
 		url: 'https://pratitb.github.io/customer-dashboard/',
 	},
