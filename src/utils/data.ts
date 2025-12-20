@@ -10,6 +10,7 @@ import {
 	Tip,
 	Profile,
 	Social,
+	Jobs,
 } from './assets'
 import type { ProjectsType } from './types'
 
@@ -27,8 +28,8 @@ export const projects: ProjectsType[] = [
 	{
 		name: 'job list filtering',
 		tech: ['components', 'react', 'typescript'],
-		coverBg: Social,
-		url: 'https://pratitb.github.io/social-media/',
+		coverBg: Jobs,
+		url: 'https://pratitb.github.io/job-list-filtering/',
 	},
 	{
 		name: 'social media dashboard',
