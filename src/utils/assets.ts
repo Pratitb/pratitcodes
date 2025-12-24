@@ -10,6 +10,7 @@ import Food from '../assets/food-item-card.png'
 import Profile from '../assets/profile-card.png'
 import Social from '../assets/socia-media.png'
 import Jobs from '../assets/job-list-filtering.png'
+import Crypto from '../assets/crypto.png'
 
 export {
 	Social,
@@ -24,4 +25,5 @@ export {
 	Tip,
 	Age,
 	Jobs,
+	Crypto,
 }

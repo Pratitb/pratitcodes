@@ -1,5 +1,5 @@
 import {
-	Affinity,
+	// Affinity,
 	Age,
 	Car,
 	Currency,
@@ -11,6 +11,7 @@ import {
 	Profile,
 	Social,
 	Jobs,
+	Crypto,
 } from './assets'
 import type { ProjectsType } from './types'
 
@@ -25,6 +26,12 @@ export const projectTypes = [
 ]
 
 export const projects: ProjectsType[] = [
+	{
+		name: 'crypto dash',
+		tech: ['components', 'react', 'typescript'],
+		coverBg: Crypto,
+		url: 'https://pratitb.github.io/crypto-dash/',
+	},
 	{
 		name: 'job list filtering',
 		tech: ['components', 'react', 'typescript'],
@@ -73,12 +80,12 @@ export const projects: ProjectsType[] = [
 		coverBg: CustDash,
 		url: 'https://pratitb.github.io/customer-dashboard/',
 	},
-	{
+	/* {
 		name: 'loan dashboard',
 		tech: ['react'],
 		coverBg: Affinity,
 		url: 'https://pratitb.github.io/affinity-react/',
-	},
+	}, */
 	{
 		name: 'currency converter',
 		tech: ['react'],
@@ -98,3 +105,6 @@ export const projects: ProjectsType[] = [
 		url: 'https://pratitb.github.io/age-calculator/',
 	},
 ]
+
+export const platformDesc = `A platform where I try and showcase a few projects covering the technologies and concepts I work with. `
+export const platformDescExt = `Apart from a few, all projects are built using React, Typescript & TailwindCSS.`
