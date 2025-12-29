@@ -12,6 +12,7 @@ import {
 	Social,
 	Jobs,
 	Crypto,
+	Interests,
 } from './assets'
 import type { ProjectsType } from './types'
 
@@ -25,6 +26,12 @@ export const projectTypes = [
 ]
 
 export const projects: ProjectsType[] = [
+	{
+		name: 'interests',
+		tech: ['components'],
+		coverBg: Interests,
+		url: 'https://pratitb.github.io/interests/',
+	},
 	{
 		name: 'crypto dash',
 		tech: ['API/Fetch'],

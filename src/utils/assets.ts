@@ -11,6 +11,7 @@ import Profile from '../assets/profile-card.png'
 import Social from '../assets/socia-media.png'
 import Jobs from '../assets/job-list-filtering.png'
 import Crypto from '../assets/crypto.png'
+import Interests from '../assets/interests.png'
 
 export {
 	Social,
@@ -26,4 +27,5 @@ export {
 	Age,
 	Jobs,
 	Crypto,
+	Interests,
 }
