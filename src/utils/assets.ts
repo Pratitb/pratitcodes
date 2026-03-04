@@ -12,8 +12,12 @@ import Social from '../assets/socia-media.png'
 import Jobs from '../assets/job-list-filtering.png'
 import Crypto from '../assets/crypto.png'
 import Interests from '../assets/interests.png'
+import F1Valut from '../assets/f1-vault.png'
+import PricingModels from '../assets/pricing-models.png'
 
 export {
+	PricingModels,
+	F1Valut,
 	Social,
 	Profile,
 	Food,

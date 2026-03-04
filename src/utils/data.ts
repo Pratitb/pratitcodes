@@ -13,6 +13,8 @@ import {
 	Jobs,
 	Crypto,
 	Interests,
+	F1Valut,
+	PricingModels,
 } from './assets'
 import type { ProjectsType } from './types'
 
@@ -26,6 +28,18 @@ export const projectTypes = [
 ]
 
 export const projects: ProjectsType[] = [
+	{
+		name: 'pricing models',
+		tech: ['components'],
+		coverBg: PricingModels,
+		url: 'https://pratitb.github.io/pricing-models/',
+	},
+	{
+		name: 'f1 vault',
+		tech: ['API/Fetch'],
+		coverBg: F1Valut,
+		url: 'https://pratitb.github.io/f1-vault/',
+	},
 	{
 		name: 'interests',
 		tech: ['components'],
