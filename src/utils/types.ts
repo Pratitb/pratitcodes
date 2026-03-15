@@ -8,6 +8,7 @@ export interface CardType {
 	name?: string;
 	pills?: string[];
 	url?: string;
+	github?: string
 }
 export interface ContextType {
 	children: React.ReactNode;
@@ -21,6 +22,7 @@ export interface ProjectsType {
 	tech?: string[];
 	coverBg?: string;
 	url?: string;
+	github?: string
 }
 export interface ProjectsContextType {
 	filterProjects: ProjectsType[];

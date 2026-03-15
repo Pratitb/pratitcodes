@@ -21,7 +21,7 @@ const Work = () => {
     return (
         <div className="my-4 flex flex-col gap-4 md:flex-row md:flex-wrap md: justify-center">
             {filterProjects?.map((project, index: number) => (
-                <Card key={index} screenshot={project?.coverBg} name={project?.name} pills={project?.tech} url={project?.url} />
+                <Card key={index} screenshot={project?.coverBg} name={project?.name} pills={project?.tech} url={project?.url} github={project?.github} />
             ))}
         </div>
     )
