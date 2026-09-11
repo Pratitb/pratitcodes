@@ -2,7 +2,7 @@ import './App.css'
 import MobNavBar from './components/mobNavBar'
 import Work from './components/work'
 
-function App() {
+const App = () => {
 
   return (
     <div className="min-h-screen bg-mainBg">
