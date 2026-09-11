@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="min-h-screen bg-mainBg">
       <div className='container'>
-        {/* Mobile Navbar */}
         <MobNavBar />
         <Work />
       </div>

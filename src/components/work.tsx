@@ -16,7 +16,7 @@ const Work = () => {
             const updatedList = projects?.filter((project: ProjectsType) => project?.tech?.includes(currentPill))
             updateFilterProjects(updatedList)
         }
-    }, [currentPill])
+    }, [currentPill, updateFilterProjects])
 
     return (
         <div className="my-4 flex flex-col gap-4 md:flex-row md:flex-wrap md: justify-center">
