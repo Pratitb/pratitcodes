@@ -24,7 +24,7 @@ export const projects: ProjectsType[] = [
 	},
 	{
 		name: 'f1 vault',
-		tech: ['API/Fetch'],
+		tech: ['react', 'API/Fetch'],
 		coverBg: F1Valut,
 		url: 'https://pratitb.github.io/f1-vault/',
 		github: 'https://github.com/Pratitb/f1-vault.git'
@@ -32,7 +32,7 @@ export const projects: ProjectsType[] = [
 
 	{
 		name: 'crypto dash',
-		tech: ['API/Fetch'],
+		tech: ['react', 'API/Fetch'],
 		coverBg: Crypto,
 		url: 'https://pratitb.github.io/crypto-dash/',
 		github: 'https://github.com/Pratitb/crypto-dash.git'
@@ -40,14 +40,14 @@ export const projects: ProjectsType[] = [
 
 	{
 		name: 'social media dashboard',
-		tech: ['components'],
+		tech: ['react'],
 		coverBg: Social,
 		url: 'https://pratitb.github.io/social-media/',
 		github: 'https://github.com/Pratitb/social-media.git'
 	},
 	{
 		name: 'customer dashboard',
-		tech: ['API/Fetch', 'react', 'SCSS'],
+		tech: ['react', 'API/Fetch',],
 		coverBg: CustDash,
 		url: 'https://pratitb.github.io/customer-dashboard/',
 		github: 'https://github.com/Pratitb/customer-dashboard.git'
